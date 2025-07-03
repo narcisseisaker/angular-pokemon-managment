@@ -12,9 +12,10 @@
   
             <h1>Pokédex</h1>
             <h2> {{name}} </h2>
-            <p>Points de vie : {{life}} </p>
+            <p>Points de vie : {{counter()}} </p>
+              <p>Points de vie : {{doubleCounter()}} </p>
             <button (click)="incrementLife()">+</button> 
-            <button (click)="decrementLife()">-</button>
+            <button (click)="reset()">Remise à Zéro</button>
 
            
 </main>

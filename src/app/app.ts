@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, computed, signal } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,15 +9,14 @@ import { Component } from '@angular/core';
 export class App {
   
   name = 'Pikachou';
-  life = 21;
+  counter = signal(0);
+  doubleCounter = computed(()=> this.counter()*2);
 
   incrementLife() {
-    this.life=this.life+1;
-     console.log('+1 point de vie');
+    this.counter.update(n=> n +1);
 }
-  decrementLife() {
-    this.life = this.life-1;
-    console.log('-1 point de vie');
+  reset() {
+    this.counter.set(0);
   }
 
 
