@@ -1,4 +1,4 @@
-import { Component, computed, signal } from '@angular/core';
+import { Component, effect, signal } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -10,9 +10,15 @@ export class App {
   
   name = 'Pikachou';
   counter = signal(0);
-  doubleCounter = computed(()=> this.counter()*2);
+  //doubleCounter = computed(()=> this.counter()*2);
 
-  incrementLife() {
+  constructor(){
+    effect(() => {
+      console.log('Le compteur a été mis à jour :', this.counter());
+    })
+  }
+  
+  increment() {
     this.counter.update(n=> n +1);
 }
   reset() {
