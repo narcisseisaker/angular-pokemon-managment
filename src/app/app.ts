@@ -1,4 +1,4 @@
-import { Component, effect, signal } from '@angular/core';
+import { Component, computed, effect, signal } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,21 +8,38 @@ import { Component, effect, signal } from '@angular/core';
 })
 export class App {
   
-  name = 'Pikachou';
-  counter = signal(0);
-  //doubleCounter = computed(()=> this.counter()*2);
+  name = signal('Pikachou');
+  life = signal(21);
+  size = computed(() => {
+    if (this.life() <= 15) {
+      return 'Petit';
+    }
+
+    if (this.life() >= 25) {
+      return 'Grand';
+    }
+
+    return 'Moyen';
+  });
 
   constructor(){
     effect(() => {
-      console.log('Le compteur a été mis à jour :', this.counter());
+      console.log('Le compteur a été mis à jour :', this.life());
     })
   }
   
   increment() {
-    this.counter.update(n=> n +1);
+    this.life.update(n=> n + 1);
 }
+decrement() {
+    this.life.update(n=> n - 1);
+}
+namePikachou(){
+  this.name.update(name => this.name());
+}
+
   reset() {
-    this.counter.set(0);
+    this.life.set(0);
   }
 
 

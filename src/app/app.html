@@ -11,11 +11,14 @@
 <main>
   
             <h1>Pokédex</h1>
-            <h2> {{name}} </h2>
-            <p>Compter : {{counter()}} </p>
+            <h2> {{name()}} </h2>
+                <p>Taile {{size()}}</p>
+              
+            
+            <p>Compter : {{life()}} </p>
               <!-- <p>Double du compteur : {{doubleCounter()}} </p> -->
             <button (click)="increment()">+</button> 
-            <button (click)="reset()">Remise à Zéro</button>
+            <button (click)="decrement()">-</button>
 
            
 </main>
