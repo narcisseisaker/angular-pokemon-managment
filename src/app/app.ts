@@ -9,7 +9,7 @@ import { Pokemon } from './pokemon.model';
 })
 export class App {
   
-  readonly pokemonlist = signal(POKEMON_LIST);
+  readonly pokemonList = signal(POKEMON_LIST);
 
   /* On utilise ensuite l'interface Pokémon pour forcer
 le type du paramètre pokémon avec la syntaxe "parameter : Type". */
@@ -24,4 +24,10 @@ size(pokemon: Pokemon) {
   return 'Moyen';
 }
 
+incrementLife(pokemon: Pokemon){
+  pokemon.life = pokemon.life + 1;
+}
+decrementLife(pokemon: Pokemon){
+  pokemon.life = pokemon.life - 1;
+}
 }
