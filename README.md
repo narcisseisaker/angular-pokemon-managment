@@ -1,5 +1,5 @@
 # Angular Pokemon Managment
-  *Objectif*
+  **Objectif**
 
 Cette application permet de gérer des pokémons. [lien vers l'application](https://angular-pokemon-management.web.app)
 
@@ -12,9 +12,9 @@ Son objectif est de me permettre de monter en compétences sur les 03 facettes s
 - Création d'une To-do List : Un projet “To-Do List” doit tenir sur 1 seul page et il n’y a pas de requêtes réseaux. Vous vous concentrez ici sur le fonctionnement interne de votre expertise SENIOR. Dans le cas du frontend, le sujet principal est d’apprendre à relier votre “modèle” avec votre “vue”, et maintenir à jour les données affichés en fonction des interactions utilisateurs. Une fois que vous êtes à l’aise avec ça, vous pouvez passer à la suite;
 
 
-- lise en place du Master - View Details : 99% des projets que vous allez coder sont des variantes d’un projet “Master - View Details”. C'est-à-dire une page avec une liste de trucs, et une page permettant d’effectuer des opérations sur ces trucs. Par exemple, Amazon est une liste de produits (Master), avec une autre page pour effectuer des opérations sur ces produits (View Details). YouTube est la même chose avec des vidéos, ou encore Netflix avec des films. Les opérations à maîtriser ici sont les routes, les appels réseaux et les opérations dites CRUD (Create - Read - Update - Delete).
+- Mise en place du Master - View Details : 99% des projets que vous allez coder sont des variantes d’un projet “Master - View Details”. C'est-à-dire une page avec une liste de trucs, et une page permettant d’effectuer des opérations sur ces trucs. Par exemple, Amazon est une liste de produits (Master), avec une autre page pour effectuer des opérations sur ces produits (View Details). YouTube est la même chose avec des vidéos, ou encore Netflix avec des films. Les opérations à maîtriser ici sont les routes, les appels réseaux et les opérations dites CRUD (Create - Read - Update - Delete).
  
- *Compétences avancées sur Angular*
+ **Compétences avancées sur Angular**
 
 - Créer une application Angular de zéro, en partant d’un dossier vide sur votre ordinateur ;
 - Suivre l'évolution de l'état de l'application avec les signals ;
