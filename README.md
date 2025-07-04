@@ -1,6 +1,8 @@
 # Angular Pokemon Managment
   *Objectif*
+
 Cette application permet de gérer des pokémons. [lien vers l'application](https://angular-pokemon-management.web.app)
+
 Son objectif est de me permettre de monter en compétences sur les 03 facettes suivantes d'une application:
 
 
