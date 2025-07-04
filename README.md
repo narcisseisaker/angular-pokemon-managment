@@ -3,7 +3,7 @@
 
 Cette application permet de gérer des pokémons. [lien vers l'application](https://angular-pokemon-management.web.app)
 
-Son objectif est de me permettre de monter en compétences sur les 03 facettes suivantes d'une application:
+Son objectif est de me permettre de monter en compétences sur les 03 points suivants :
 
 
 - initialisation et déploiement en production d'une application via un socle minimal avec le contenu Hello, World ! : Cela peut paraître ridicule, pourtant ça ne l’est pas. Vous devez comprendre comment coder la plus petite application possible avec votre expertise SENIOR et déployer cette application sur Internet. Tant qu’une application n’est pas déployée, aucun utilisateur n’y a accès, et donc il n’y a pas de valeur économique créée;
