@@ -10,6 +10,7 @@ export class App {
   
   name = signal('Pikachou');
   life = signal(21);
+    imageSrc = signal('.//public/images/025.png');
   size = computed(() => {
     if (this.life() <= 15) {
       return 'Petit';
