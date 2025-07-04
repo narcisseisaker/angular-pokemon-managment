@@ -1,5 +1,6 @@
-import { Component, computed, effect, signal } from '@angular/core';
-
+import { Component, signal } from '@angular/core';
+import { POKEMON_LIST } from './pokemon-list.fake';
+import { Pokemon } from './pokemon.model';
 @Component({
   selector: 'app-root',
   imports: [],
@@ -8,41 +9,19 @@ import { Component, computed, effect, signal } from '@angular/core';
 })
 export class App {
   
-  name = signal('Pikachou');
-  life = signal(21);
-    imageSrc = signal('.//public/images/025.png');
-  size = computed(() => {
-    if (this.life() <= 15) {
-      return 'Petit';
-    }
+  readonly pokemonlist = signal(POKEMON_LIST);
 
-    if (this.life() >= 25) {
-      return 'Grand';
-    }
-
-    return 'Moyen';
-  });
-
-  constructor(){
-    effect(() => {
-      console.log('Le compteur a été mis à jour :', this.life());
-    })
+  /* On utilise ensuite l'interface Pokémon pour forcer
+le type du paramètre pokémon avec la syntaxe "parameter : Type". */
+size(pokemon: Pokemon) {
+  if (pokemon.life <= 15) {
+    return 'Petit';
   }
-  
-  increment() {
-    this.life.update(n=> n + 1);
-}
-decrement() {
-    this.life.update(n=> n - 1);
-}
-namePikachou(){
-  this.name.update(name => this.name());
-}
-
-  reset() {
-    this.life.set(0);
+  if (pokemon.life >= 25) {
+    return 'Grand';
   }
 
-
+  return 'Moyen';
+}
 
 }

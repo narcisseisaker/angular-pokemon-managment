@@ -11,15 +11,19 @@
 <main>
   
             <h1>Pokédex</h1>
-            <h2> {{name()}} </h2>
-                <p>Taile {{size()}}</p>
-                <img [src]="imageSrc()" [alt]="name()">
             
-            <p>Compter : {{life()}} </p>
-              <!-- <p>Double du compteur : {{doubleCounter()}} </p> -->
-            <button (click)="increment()">+</button> 
-            <button (click)="decrement()">-</button>
+            @for(pokemon of pokemonlist(); track pokemon.id){
 
+              <h2> {{pokemon.name}} </h2>
+              size : {{size(pokemon)}}
+              <img [src]="pokemon.picture" [alt]="pokemon.name">
+              <p>Points de vie : {{pokemon.life}} </p>
+            }@empty {
+              <p>There are no pokemons.</p>
+            }
+            
+             
+  
            
 </main>
 
@@ -30,5 +34,3 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-
