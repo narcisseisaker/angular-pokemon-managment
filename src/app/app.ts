@@ -2,11 +2,10 @@ import { Component, computed, inject, signal } from '@angular/core';
 import { Pokemon } from './pokemon.model';
 import { PokemonBorder } from './pokemon-border';
 import { DatePipe } from '@angular/common';
-import { ReversePipe } from './reverse-pipe';
 import { PokemonService } from './pokemon';
 @Component({
   selector: 'app-root',
-  imports: [DatePipe, PokemonBorder, ReversePipe],
+  imports: [DatePipe, PokemonBorder],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
@@ -26,7 +25,7 @@ export class App {
         .includes(this.searchTerm().trim().toLowerCase())
     );
   });  
-  expiredOn = new Date(2026, 6, 27);
+ 
 
   /* On utilise ensuite l'interface Pokémon pour forcer
 le type du paramètre pokémon avec la syntaxe "parameter : Type". */
