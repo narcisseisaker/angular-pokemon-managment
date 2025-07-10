@@ -1,4 +1,10 @@
 # Angular Pokemon Managment
+
+  **Interface de l'application**
+   <div align="center">
+       <img src="/public/images/pokemon-app.PNG" alt="Texte alternatif" width="300">
+     </div>
+
   **Objectif**
 
 Cette application permet de gérer des pokémons. [lien vers l'application](https://angular-pokemon-management.web.app)
