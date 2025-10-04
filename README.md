@@ -1,4 +1,4 @@
-# Angular Pokemon Managment
+## Angular Pokemon Managment
 
 
    <div align="center">
