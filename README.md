@@ -22,11 +22,11 @@ Son objectif est de me permettre de monter en compétences sur les 03 points sui
  
  **Compétences avancées sur Angular**
 
-- Créer une application Angular de zéro, en partant d’un dossier vide sur votre ordinateur ;
+- Créer une application Angular de zéro, en partant d’un dossier vide sur notre ordinateur ;
 - Suivre l'évolution de l'état de l'application avec les signals ;
 - Créer un système de navigation entre différents composants web ;
 - Savoir développer des formulaires complexes avec Angular ;
-- Effectuer des requêtes HTTP depuis votre application ;
+- Effectuer des requêtes HTTP depuis notre application ;
 - Mettre en place un système d’authentification ;
 - Déployer une application Angular en production sur firebase.
 
