@@ -12,13 +12,13 @@ Cette application permet de gérer des pokémons. [lien vers l'application](http
 Son objectif est de me permettre de monter en compétences sur les 03 points suivants :
 
 
-- initialisation et déploiement en production d'une application via un socle minimal avec le contenu Hello, World ! : Cela peut paraître ridicule, pourtant ça ne l’est pas. Vous devez comprendre comment coder la plus petite application possible avec votre expertise SENIOR et déployer cette application sur Internet. Tant qu’une application n’est pas déployée, aucun utilisateur n’y a accès, et donc il n’y a pas de valeur économique créée;
+- initialisation et déploiement en production d'une application via un socle minimal avec le contenu Hello, World ! : Cela peut paraître ridicule, pourtant ça ne l’est pas. Nous comprendre comment coder la plus petite application possible déployer cette application sur Internet. Tant qu’une application n’est pas déployée, aucun utilisateur n’y a accès, et donc il n’y a pas de valeur économique créée;
 
 
-- Création d'une To-do List : Un projet “To-Do List” doit tenir sur 1 seul page et il n’y a pas de requêtes réseaux. Vous vous concentrez ici sur le fonctionnement interne de votre expertise SENIOR. Dans le cas du frontend, le sujet principal est d’apprendre à relier votre “modèle” avec votre “vue”, et maintenir à jour les données affichés en fonction des interactions utilisateurs. Une fois que vous êtes à l’aise avec ça, vous pouvez passer à la suite;
+- Création d'une To-do List : Un projet “To-Do List” doit tenir sur 1 seul page et il n’y a pas de requêtes réseaux. Dans le cas du frontend, le sujet principal est d’apprendre à relier notre “modèle” avec notre “vue”, et maintenir à jour les données affichées en fonction des interactions utilisateurs. Une fois que nous sommes à l’aise avec ça, nous pouvons passer à la suite;
 
 
-- Mise en place du Master - View Details : 99% des projets que vous allez coder sont des variantes d’un projet “Master - View Details”. C'est-à-dire une page avec une liste de trucs, et une page permettant d’effectuer des opérations sur ces trucs. Par exemple, Amazon est une liste de produits (Master), avec une autre page pour effectuer des opérations sur ces produits (View Details). YouTube est la même chose avec des vidéos, ou encore Netflix avec des films. Les opérations à maîtriser ici sont les routes, les appels réseaux et les opérations dites CRUD (Create - Read - Update - Delete).
+- Mise en place du Master - View Details : 99% des projets que nous allons coder sont des variantes d’un projet “Master - View Details”. C'est-à-dire une page avec une liste de trucs, et une page permettant d’effectuer des opérations sur ces trucs. Par exemple, Amazon est une liste de produits (Master), avec une autre page pour effectuer des opérations sur ces produits (View Details). YouTube est la même chose avec des vidéos, ou encore Netflix avec des films. Les opérations à maîtriser ici sont les routes, les appels réseaux et les opérations dites CRUD (Create - Read - Update - Delete).
  
  **Compétences avancées sur Angular**
 
